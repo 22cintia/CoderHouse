@@ -1,0 +1,552 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* HEADER */
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    height: 420px;
+}
+
+.fondo-negro,
+.fondo-celeste {
+    height: 100%;
+    float: left;
+}
+
+.fondo-negro {
+    background-color: #000;
+    width: 30%;
+}
+
+.fondo-celeste {
+    background-color: #2182b0;
+    width: 70%;
+}
+
+.contenedor-cabecera {
+    position: relative;
+    height: 257px;
+    width: 700px;
+    left: 62px;
+    top: 80px;
+}
+
+.logo,
+.eslogan,
+.fa-bars {
+    position: absolute;
+}
+
+.logo {
+    height: 53px;
+    width: 86px;
+}
+
+.eslogan,
+.fa-bars {
+    color: #FFF;
+}
+
+.fa-bars {
+    right: 0;
+    top: 0;
+}
+
+.eslogan {
+    left: 0;
+    bottom: 0;
+}
+
+
+/* 1ST SECTION */
+
+.primera-seccion {
+    background-color: #FFF;
+    padding: 30px 30px 0px 30px;
+}
+
+.contenedor-servicios {
+    width: 1260px;
+    margin: auto;
+}
+
+.servicios {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 45px;
+    height: 228px;
+    width: 220px;
+    padding: 2px;
+}
+
+.iconos {
+    width: 100px;
+    height: 100px;
+}
+
+.servicios h2 {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.servicios p {
+    color: #969595;
+    font-size: 12px;
+}
+
+
+/* 2ND SECTION */
+
+.segunda-seccion {
+    background-color: #F9F9F9;
+    padding: 60px;
+}
+
+.contenedor-compra {
+    width: 1330px;
+    padding: 30px;
+    margin: auto;
+}
+
+.preview,
+.oferta {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.preview {
+    height: 360px;
+}
+
+.oferta {
+    height: 360px;
+    width: 570px;
+    position: relative;
+}
+
+.oferta > h2 {
+    font-size: 32px;
+}
+
+.oferta > p,
+.oferta > ul li {
+    color: #969595;
+}
+
+.oferta > p {
+    margin: 18px 0px;
+}
+
+.oferta > ul li {
+    margin: 8px 0px;
+}
+
+.fa-star {
+    color: #31AAE2;
+    margin: 4px 20px 4px 0px;
+}
+
+.purchase {
+    background-color: #31AAE2;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFF;
+    width: 129px;
+    height: 43px;
+}
+
+
+/* 3RD SECTION */
+
+.tercera-seccion {
+    background-color: #000;
+    text-align: center;
+    color: #FFF;
+    padding: 60px;
+}
+
+.tercera-seccion > h2 {
+    margin-bottom: 8px;
+}
+
+.tercera-seccion > p {
+    margin-bottom: 32px;
+}
+
+.contenedor-demos {
+    width: 1260px;
+    height: 526px;
+    margin: auto;
+}
+
+.demo {
+    color: #000;
+    background-color: #FFF;
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    height: 487px;
+    margin: 20px;
+}
+
+.demo > h3 {
+    margin: 24px 0px;
+}
+
+.demo > p {
+    color: #969595;
+}
+
+
+/* 4TH SECTION */
+
+.cuarta-seccion {
+    background-color: #FFF;
+    padding: 120px;
+}
+
+.contenedor-tecnologias {
+    width: 1360px;
+    height: 400px;
+    padding: 10px 50px;
+    margin: auto;
+}
+
+.tech {
+    display: inline-block;
+    vertical-align: middle;
+    width: 600px;
+    height: 360px;
+    margin: 10px;
+}
+
+.tech > h2 {
+    margin: 10px 0px 20px 10px;
+}
+
+.tech-elements,
+.tech-demo {
+    width: 570px;
+    height: 273px;
+    margin: 4px;
+    border: 1px solid #000;
+}
+
+
+/* 5TH SECTION */
+
+.quinta-seccion {
+    background-color: #F9F9F9;
+    padding: 60px;
+}
+
+.contenedor-features {
+    width: 1340px;
+    height: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.iphone,
+.features-pack {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 30px;
+}
+
+.features-pack {
+    width: 424px;
+    height: 524px;
+    margin: 30px 0px;
+    padding: 0px;
+}
+
+.features-pack > ul li {
+    margin: 60px 6px;
+}
+
+.feature-icon {
+    width: 66px;
+    height: 66px;
+    margin: 12px;
+}
+
+.features-text {
+    width: 280px;
+}
+
+.feature-icon,
+.features-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.features-text h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.features-text p {
+    font-size: 12px;
+    color: #969595;
+}
+
+
+/* 6TH SECTION */
+
+.sexta-seccion {
+    background-color: #FFF;
+    text-align: center;
+    color: #000;
+    padding: 60px;
+}
+
+.sexta-seccion > h2 {
+    margin-bottom: 8px;
+}
+
+.sexta-seccion > p {
+    margin-bottom: 32px;
+    color: #969595;
+}
+
+.feature-service-icon {
+    width: 106px;
+    height: 106px;
+}
+
+.contenedor-feature-services {
+    width: 1260px;
+    height: 426px;
+    margin: auto;
+}
+
+.feature-service {
+    color: #000;
+    border: 2px solid #F1F1F1;
+    display: inline-block;
+    text-align: center;
+    width: 270px;
+    height: 365px;
+    margin: 20px;
+}
+
+.feature-service-icon {
+    margin-top: 30px;
+}
+
+.feature-service > h3 {
+    margin: 50px 0px;
+    font-weight: 300;
+}
+
+.feature-service > p {
+    color: #969595;
+}
+
+
+/* 7TH SECTION */
+
+.septima-seccion {
+    background-color: #F9F9F9;
+    padding: 20px 0px 0px 0px;
+}
+
+.contenedor-compra-chico {
+    width: 1218px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.contenedor-compra-chico > h3 {
+    float: left;
+    margin: 8px;
+}
+
+.purchase-2 {
+    border: 1px solid #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    color: #000;
+    width: 129px;
+    height: 43px;
+}
+
+
+/* FOOTER */
+
+.contenedor-pie-1 {
+    height: 160px;
+    padding: 30px;
+    background-color: #313131;
+}
+
+.texto-pie-1 {
+    border: 1px solid #fff;
+    width: 1218px;
+    height: 100px;
+    margin: auto;
+}
+
+.texto-pie-1 h3 {
+    color: #969595;
+    margin: 30px;
+    float: left;
+}
+
+.texto-pie-1 > .logo {
+    left: 50%;
+    margin: 18px 0px;
+}
+
+.social-iconos {
+    float: right;
+    width: 220px;
+    height: 32px;
+    color: #4A4A4A;
+    margin: 30px 5px 30px 0px;
+}
+
+.social-iconos > .fa-lg {
+    margin: 4px;
+}
+
+
+/* W3C Validator */
+
+.w3c {
+    display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    .ocultar {
+        display: none;
+    }
+    header {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        width: 100%;
+        height: 283px;
+    }
+    .fondo-celeste {
+        background-color: #59B9E8;
+        text-align: center;
+        padding: 60px;
+        width: 100%;
+        height: 100%;
+    }
+    .logo,
+    .eslogan {
+        position: static;
+    }
+    .logo {
+        height: 53px;
+        width: 86px;
+    }
+    .eslogan {
+        margin: 20px 0px;
+        font-size: 72px;
+        font-weight: 300;
+    }
+    .features {
+        width: 100%;
+        height: 900px;
+    }
+    .contenedor-features {
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 40px;
+        width: 100%;
+        height: 100%;
+    }
+    .slider {
+        width: 100%;
+        height: 498px;
+        background-color: #313131;
+    }
+    .features-texto {
+        width: 100%;
+        height: 204px;
+        margin: 30px 0px;
+    }
+    .features-texto h3 {
+        font-size: 24px;
+        margin: 18px 0px;
+    }
+    .features-texto p {
+        font-size: 16px;
+        color: #D7D7D7;
+    }
+    .iconos {
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        margin: 4px auto;
+    }
+    .iconos .fa {
+        padding: 0px 5px;
+    }
+    .contenedor-pie-1 {
+        padding: 30px;
+        height: 260px;
+        background-color: #313131;
+    }
+    .texto-pie-1 {
+        height: 200px;
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        text-align: center;
+    }
+    .texto-pie-1 h3 {
+        color: #969595;
+        float: none;
+        display: block;
+    }
+    .texto-pie-1 > .logo {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .eslogan {
+        font-size: 42px;
+    }
+}

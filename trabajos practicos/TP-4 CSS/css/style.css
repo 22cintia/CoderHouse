@@ -1,0 +1,231 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* NAV */
+
+.navegacion {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.contenedor-navegacion {
+    max-width: 1172px;
+    height: 60px;
+    padding: 16px;
+    margin: auto;
+}
+
+.logo {
+    width: 153px;
+    height: 25px;
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links li {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.nav-links li a:hover {
+    color: #A9ADB0;
+}
+
+.contenedor-navegacion .nav-links li a {
+    color: #000;
+}
+
+
+/* HEADER */
+
+.cabecera {
+    background-image: url("../img/jpg/indexbanner-bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 578px;
+    width: 100%;
+}
+
+.texto-cabecera {
+    text-align: center;
+    position: relative;
+    color: #FFFFFF;
+    padding: 10px;
+    height: 212px;
+    width: 600px;
+    margin: auto;
+    top: 27%;
+}
+
+.texto-cabecera h2 {
+    font-size: 42px;
+}
+
+.texto-cabecera p {
+    color: #A9ADB0;
+    padding: 30px 0px;
+    line-height: 30px;
+}
+
+
+/* CONTACTO DIV */
+.contacto {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.texto-contacto {
+    text-align: center;
+    position: relative;
+    color: #000000;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    top: 27%;
+}
+
+.texto-contacto h2 {
+    font-size: 42px;
+}
+
+.texto-contacto p {
+    color: #A9ADB0;
+    padding: 30px 0px;
+    line-height: 30px;
+}
+
+.formulario {
+    margin: auto;
+    width: 1200px;
+    height: 400px;
+    padding: 40px;
+}
+
+.datos-basicos {
+    float: left;
+}
+
+.dato {
+    display: block;
+    width: 570px;
+    height: 50px;
+}
+
+.entrada-texto {
+    float: right;
+    width: 450px;
+    height: 192px;
+}
+
+.dato,
+.entrada-texto {
+    border: 1px #E0E4E4 solid;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 20px;
+    padding: 10px;
+}
+
+.dato:focus,
+.entrada-texto:focus,
+.dato:active,
+.entrada-texto:active {
+    outline: none;
+    border: 1px #00B1F4 solid;
+}
+
+.boton-submit {
+    background-color: #00ADF3;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 210px;
+    height: 40px;
+    margin: 20px 45%;
+}
+
+
+/* CUSTOMERS DIV */
+
+.customers {
+    background-color: #142D3F;
+    text-align: center;
+    padding: 100px 0px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFF;
+    height: 224px;
+    width: 100%;
+}
+
+.customers h3 a {
+    color: #00BAEF;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #091722;
+    width: 100%;
+    height: 110px;
+    padding: 40px;
+    color: #FFF;
+    width: 100%;
+}
+
+.contenedor-footer {
+    max-width: 1192px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.contenedor-footer h3 {
+    float: left;
+}
+
+.contenedor-features .nav-links {
+    color: #FFF;
+}
+
+.contenedor-features > .nav-links li a {
+    color: #FFF;
+}
+
+
+/* W3C VALIDATOR */
+
+.w3c-validator {
+    display: none;
+}

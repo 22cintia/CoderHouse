@@ -1,0 +1,311 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* CONTAINER */
+
+.contenedor {
+    max-width: 1100px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+/* NAV */
+
+nav {
+    font-family: "Dancing Script", cursive;
+    background-color: #127780;
+    padding: 40px;
+}
+
+.nombre-apellido {
+    font-size: 32px;
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 24px;
+    list-style: none;
+    margin: 0px 8px;
+}
+
+ul li a:hover {
+    color: #000;
+}
+
+
+/* HEADER */
+
+header {
+    font-family: "Dancing Script", cursive;
+    background-color: #0EA47A;
+    padding: 120px;
+}
+
+header .contenedor {
+    text-align: center;
+}
+
+.logo {
+    color: #127780;
+    height: 300px;
+    width: 300px;
+}
+
+.titulo {
+    margin: 20px 0px;
+    font-size: 72px;
+}
+
+.linea-separadora {
+    width: 253px;
+    height: 35px;
+    margin: 10px 0px;
+}
+
+.subtitulo-linea-separadora {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 6px;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    text-align: center;
+    padding: 80px;
+}
+
+.subtitulo {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+}
+
+.contenedor-imagenes {
+    margin: 0px auto;
+    padding: 4px;
+}
+
+.caja-imagenes {
+    display: inline-block;
+    vertical-align: top;
+    height: 240px;
+    width: 340px;
+    margin: 10px;
+}
+
+.lupa:hover{
+    background: rgba(0, 0, 0, 0.5);
+    height: 240px;
+    width: 340px;
+}
+
+.violeta {
+    background-color: #BC4A61;
+}
+
+.celeste {
+    background-color: #0EA4B7;
+}
+
+.negro {
+    background-color: #000000;
+}
+
+.celeston {
+    background-color: #1182C4;
+}
+
+.azul {
+    background-color: #0A31B8;
+}
+
+.marron {
+    background-color: #CDB2A2;
+}
+
+.imagen {
+    height: 200px;
+    width: 200px;
+    margin: 19px auto;
+}
+
+.caja-imagenes:hover {
+    
+}
+
+/* ABOUT SECTION */
+
+.about {
+    background-color: #0EA47A;
+    text-align: center;
+    padding: 80px;
+}
+
+.about > .contenedor > .subtitulo {
+    color: #FFF;
+}
+
+.about > .contenedor > .linea-separadora {
+    display: block;
+    margin: 0 auto;
+}
+
+.caja-texto {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 300;
+    max-width: 450px;
+    max-height: 1100px;
+    margin: 30px auto;
+    padding: 0px 30px;
+}
+
+
+/* FORM SECTION */
+
+.form {
+    text-align: center;
+    padding: 80px;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.caja-input {
+    display: block;
+    padding: 8px;
+    margin: 4px auto;
+    border-top: 1px solid #F2F2F2;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    font-size: 24px;
+    width: 80%;
+}
+
+.caja-input:focus {
+    outline: none;
+}
+
+.caja-input:nth-child(4) {
+    border-bottom: 1px solid #F2F2F2;
+    height: 120px;
+}
+
+
+/* FLOTAR A LA IZQUIERDA */
+
+.submit {
+    background-color: #0EA47A;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #FFF;
+    height: 64px;
+    width: 98px;
+    margin: 4px 0px;
+    padding: 8px;
+    border: none;
+   
+}
+
+/* FOOTER SECTION */ 
+
+.pie {
+    background-color: #2A3E50;
+    padding: 40px;
+    color: #FFF;
+}
+
+.caja-pie {
+    text-align: center;
+    margin-right: 72px;
+    width: 33%;
+    float: left;
+}
+
+.caja-pie > .subtitulo {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.caja-pie > h3 {
+    font-size: 12px;
+    padding: 12px 0px;
+}
+
+
+.caja-iconos {
+    width: 220px;
+    margin: 10px auto;
+    
+}
+/* ARREGLAR CIRCULO */
+
+.circulo {
+    font-size: 32px;
+}
+
+.margen-iconos {
+    margin: 0px 8px;
+}
+
+.copyright{
+    background-color: #213140;
+    text-align: center;
+    padding: 30px;
+}
+
+.copyright > h3 {
+    padding: 12px 0px;
+    font-size: 12px;
+}
+
+.lupa:hover{
+   opacity: 0.3; filter: alpha(opacity=30);
+}
+.celeste:hover{
+   opacity: 0.3; filter: alpha(opacity=30);
+}
+.negro:hover{
+   opacity: 0.3; filter: alpha(opacity=30);
+}
+.celeston:hover{
+   opacity: 0.3; filter: alpha(opacity=30);
+}
+.azul:hover{
+   opacity: 0.3; filter: alpha(opacity=30);
+}
+.marron:hover{
+   opacity: 0.3; filter: alpha(opacity=30);
+}
