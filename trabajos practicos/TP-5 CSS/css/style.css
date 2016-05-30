@@ -68,7 +68,7 @@ ul {
 /* HEADER */
 
 .cabecera {
-    background-image: url("../img/jpg/indexbanner-bg3.jpg");
+    background-image: url("../img/jpg/foto-fondo1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -307,7 +307,7 @@ ul {
 /* PRICING SECTION */
 
 .pricing {
-    background-image: url("../img/jpg/pricing-bg.jpg");
+    background-image: url("../img/jpg/foto-fondo3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
