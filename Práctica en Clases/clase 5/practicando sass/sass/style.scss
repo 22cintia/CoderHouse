@@ -1,0 +1,17 @@
+
+@import "reset";
+@import "vars";
+@import "nav";
+@import "header";
+
+body{
+	font-family: $fuente;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+}

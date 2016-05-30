@@ -1,0 +1,82 @@
+@import "reset";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,600';
+$product-one:#b9da56;
+$product-one-dark: darken($product-one,20%);
+$product-two:#639cd9;
+$product-two-dark: darken($product-two,20%);
+$product-three:#dd5c62;
+$product-three-dark: darken($product-three,20%);
+$fuente-principal: "Open Sans", sans-serif;
+@mixin crear-producto($color, $color-oscuro){
+    font-family: $fuente-principal;
+        max-width: 400px;
+        border-radius: 4px;
+        margin: auto;
+        background: white;
+        padding-bottom: 20px;
+        header{
+            background: $color;
+            border-bottom: 3px solid $color-oscuro;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            
+            h2{
+                font-size: 25px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: 10px 0;
+            }
+            h4{
+                font-size: 50px;
+                &:after{
+                    content: "99";
+                    font-size: 20px;
+                    text-decoration: underline;
+                    position: relative;
+                    top: -20px;
+                }
+            }
+        }
+        .info{
+            ul{
+                margin-bottom: 50px;    
+                li{
+                    border-bottom: 1px solid #cdcdcd;
+                    text-align: center;
+                    font-size: 22px;
+                    line-height: 50px;
+                    color: #454545;
+                    strong{
+                        font-weight: 700;
+                        color: $color-oscuro;
+                    }
+                }
+            }
+            a{
+                background: #333;
+                display: block;
+                width: 90%;
+                text-transform: uppercase;
+                color: white;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+                padding: 15px 0;
+                border-radius: 4px;
+            }
+        }
+}
+#productos{
+    background: #333;
+    padding: 20px;
+    .basic{
+        @include crear-producto($product-one, $product-one-dark); 
+    }
+    .pro{
+        @include crear-producto($product-two, $product-two-dark); 
+    }
+    .premium{
+        @include crear-producto($product-three, $product-three-dark); 
+    }
+}

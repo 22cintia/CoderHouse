@@ -1,0 +1,98 @@
+@import "reset";
+$color: #65687b;
+$color-claro: lighten($color,20%);
+
+body{
+	background-color: #434250;
+	width: 100%;
+}
+	
+section{
+	width: 514px;
+	height: 370px;
+	border-radius: 5px;
+	background-color: white;
+	margin: 10% auto;
+	position:relative;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+	div.grilla{
+		padding: 15px;
+		width: 75%;
+		position:absolute;
+		display: inline;
+		float: left;
+		}
+		.menu{
+		display: block;
+		}
+		.foto{
+		display: block;
+		margin: 20px 33% 10px 33%;
+		}
+		h1, p, h2{
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+			color: $color;
+		}
+		h1{
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+		p{
+			font-size: 12px;
+			line-height: 20px;
+		}
+		h2{
+			font-size: 0.7em;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		nav.horizontal{
+			margin-top: 25px;
+			padding: 5px;
+		}
+		.horizontal ul li{
+		display: inline-block;
+		text-align: center;
+		border-right: 1px solid $color;
+		padding: 17px;
+		&:last-child{
+			border-right: 0;
+		}
+		&:hover{
+			background-color: $color-claro;
+			h2{
+				color: white;
+			}
+			}
+		}
+		nav.vertical ul{
+			background-color: $color;
+			position:absolute;
+			top: 0;
+			right: 0;
+			width: 25%;
+			float: right;
+			text-align: center;
+
+		li {
+			padding: 37px;
+			box-sizing: border-box;
+			&:hover{
+			background-color: $color-claro;
+			}
+
+		h2 {
+			color: white;
+		}
+		a {
+			text-decoration:none;
+		}
+		}
+		}
+
+}
+
+
+

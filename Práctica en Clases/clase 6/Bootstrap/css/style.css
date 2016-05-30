@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+	font-family: 'Pacifico', cursive;
+}
+
+ .glyphicon-heart{
+ 	font-size: 40px;
+ }
+
+ [class*=col-]{
+ 	background-color: #f2f2f2;
+ 	border: solid 1px #ccc; 
+ 
+ }

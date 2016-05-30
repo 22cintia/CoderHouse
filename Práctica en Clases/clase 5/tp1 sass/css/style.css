@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,600";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#productos {
+  background: #333;
+  padding: 20px; }
+  #productos .basic {
+    font-family: "Open Sans", sans-serif;
+    max-width: 400px;
+    border-radius: 4px;
+    margin: auto;
+    background: white;
+    padding-bottom: 20px; }
+    #productos .basic header {
+      background: #b9da56;
+      border-bottom: 3px solid #85a624;
+      color: white;
+      text-align: center;
+      padding: 20px; }
+      #productos .basic header h2 {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 10px 0; }
+      #productos .basic header h4 {
+        font-size: 50px; }
+        #productos .basic header h4:after {
+          content: "99";
+          font-size: 20px;
+          text-decoration: underline;
+          position: relative;
+          top: -20px; }
+    #productos .basic .info ul {
+      margin-bottom: 50px; }
+      #productos .basic .info ul li {
+        border-bottom: 1px solid #cdcdcd;
+        text-align: center;
+        font-size: 22px;
+        line-height: 50px;
+        color: #454545; }
+        #productos .basic .info ul li strong {
+          font-weight: 700;
+          color: #85a624; }
+    #productos .basic .info a {
+      background: #333;
+      display: block;
+      width: 90%;
+      text-transform: uppercase;
+      color: white;
+      margin: auto;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px 0;
+      border-radius: 4px; }
+  #productos .pro {
+    font-family: "Open Sans", sans-serif;
+    max-width: 400px;
+    border-radius: 4px;
+    margin: auto;
+    background: white;
+    padding-bottom: 20px; }
+    #productos .pro header {
+      background: #639cd9;
+      border-bottom: 3px solid #2a69ac;
+      color: white;
+      text-align: center;
+      padding: 20px; }
+      #productos .pro header h2 {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 10px 0; }
+      #productos .pro header h4 {
+        font-size: 50px; }
+        #productos .pro header h4:after {
+          content: "99";
+          font-size: 20px;
+          text-decoration: underline;
+          position: relative;
+          top: -20px; }
+    #productos .pro .info ul {
+      margin-bottom: 50px; }
+      #productos .pro .info ul li {
+        border-bottom: 1px solid #cdcdcd;
+        text-align: center;
+        font-size: 22px;
+        line-height: 50px;
+        color: #454545; }
+        #productos .pro .info ul li strong {
+          font-weight: 700;
+          color: #2a69ac; }
+    #productos .pro .info a {
+      background: #333;
+      display: block;
+      width: 90%;
+      text-transform: uppercase;
+      color: white;
+      margin: auto;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px 0;
+      border-radius: 4px; }
+  #productos .premium {
+    font-family: "Open Sans", sans-serif;
+    max-width: 400px;
+    border-radius: 4px;
+    margin: auto;
+    background: white;
+    padding-bottom: 20px; }
+    #productos .premium header {
+      background: #dd5c62;
+      border-bottom: 3px solid #af242b;
+      color: white;
+      text-align: center;
+      padding: 20px; }
+      #productos .premium header h2 {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 10px 0; }
+      #productos .premium header h4 {
+        font-size: 50px; }
+        #productos .premium header h4:after {
+          content: "99";
+          font-size: 20px;
+          text-decoration: underline;
+          position: relative;
+          top: -20px; }
+    #productos .premium .info ul {
+      margin-bottom: 50px; }
+      #productos .premium .info ul li {
+        border-bottom: 1px solid #cdcdcd;
+        text-align: center;
+        font-size: 22px;
+        line-height: 50px;
+        color: #454545; }
+        #productos .premium .info ul li strong {
+          font-weight: 700;
+          color: #af242b; }
+    #productos .premium .info a {
+      background: #333;
+      display: block;
+      width: 90%;
+      text-transform: uppercase;
+      color: white;
+      margin: auto;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px 0;
+      border-radius: 4px; }
+
+/*# sourceMappingURL=style.css.map */

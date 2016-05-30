@@ -1,0 +1,23 @@
+//tamaño base
+$base-width: 1200
+
+.container
+width: $base-width*1px;
+
+.columna{
+	width: percentage(320 / $base-width)//porcentaje automatico, operacion matematoca
+	background-color: $base-color;
+}
+.elemento{
+	background-color:lighten($base-color,10) //aclarar el color base
+}
+.element-2{
+	background-color:darken ($base-color,20) //oscurec el color base
+	p{
+		font-size: 30px;
+		em
+		font-style: normal;
+
+		}
+	}
+}

@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #434250;
+  width: 100%; }
+
+section {
+  width: 514px;
+  height: 370px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10% auto;
+  position: relative;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45); }
+  section div.grilla {
+    padding: 15px;
+    width: 75%;
+    position: absolute;
+    display: inline;
+    float: left; }
+  section .menu {
+    display: block; }
+  section .foto {
+    display: block;
+    margin: 20px 33% 10px 33%; }
+  section h1, section p, section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #65687b; }
+  section h1 {
+    font-weight: bold;
+    font-size: 1.5em; }
+  section p {
+    font-size: 12px;
+    line-height: 20px; }
+  section h2 {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: bold; }
+  section nav.horizontal {
+    margin-top: 25px;
+    padding: 5px; }
+  section .horizontal ul li {
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #65687b;
+    padding: 17px; }
+    section .horizontal ul li:last-child {
+      border-right: 0; }
+    section .horizontal ul li:hover {
+      background-color: #9a9cac; }
+      section .horizontal ul li:hover h2 {
+        color: white; }
+  section nav.vertical ul {
+    background-color: #65687b;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    float: right;
+    text-align: center; }
+    section nav.vertical ul li {
+      padding: 37px;
+      box-sizing: border-box; }
+      section nav.vertical ul li:hover {
+        background-color: #9a9cac; }
+      section nav.vertical ul li h2 {
+        color: white; }
+      section nav.vertical ul li a {
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
